@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    margin: 0 auto 30px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 4px #b7abab;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.right {
+    padding: 10px;
+}
+
+.content {
+    color: darkgray;
+}
+
+#price {
+    margin: 5px;
+}
+
+img {
+    display: block;
+}
+
+#mua {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#button {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: green;
+    color: #f1f1f1;
+    transition: 1s;
+}
